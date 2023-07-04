@@ -7,3 +7,6 @@
 .poppins{
   font-family: "poppins", sans-serif;
 }
+.custom-bg-gradient{
+  background: var(--yellow, linear-gradient(90deg, #F90 0%, #F2CB00 100%));
+}
