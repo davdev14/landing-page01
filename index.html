@@ -11,64 +11,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page01</title>
   </head>
-  <body class="overscroll-x-none relative">
-    <nav class="flex items-center justify-between bg-white py-4 px-6 w-full">
+  <body class="relative">
+    <nav
+      class="flex items-center justify-between lg:justify-start lg:gap-x-10 xl:justify-around bg-white px-6 lg:px-2 xl:px-6 w-full text-[#16205f] poppins text-lg border-b border-[#e1e1e1]"
+    >
       <img src="./assets/images/logo 1.png" alt="courtney-lanka-logo" />
-      <img src="./assets/icons/Menu.svg" alt="menu-icon" onclick="openNav()"/>
+      <img class="lg:hidden" src="./assets/icons/Menu.svg" alt="menu-icon" />
+      <div class="hidden lg:flex xl:gap-x-[60px] lg:gap-x-4">
+        <ul class="flex items-center justify-center lg:gap-x-6 xl:gap-x-[30px]">
+          <li><a href="">How to start</a></li>
+          <li class="flex">
+            <a href="">Services</a>
+            <img src="./assets/icons/keyboard_arrow_down.svg" alt="icon" />
+          </li>
+          <li class="flex">
+            <a href="">Technologies</a>
+            <img src="./assets/icons/keyboard_arrow_down.svg" alt="icon" />
+          </li>
+          <li><a href="">Careers</a></li>
+        </ul>
+        <div class="flex items-center justify-end lg:gap-x-4 xl:gap-x-6">
+          <button
+            class="flex items-center justify-center bg-white uppercase border-2 border-[#16205f] rounded-lg h-10 w-[189px] font-semibold"
+          >
+            <p>build a team</p>
+            <img
+              class="fill-white"
+              src="./assets/icons/arrow_forward.svg"
+              alt="icon"
+            />
+          </button>
+          <a href="">Contact us</a>
+        </div>
+      </div>
     </nav>
     <main>
       <section>
-        <div class="hero-image bg-no-repeat bg-cover h-56 w-full"></div>
-        <div>
-          <h1
-            class="text-[#16205f] text-3xl font-semibold leading-[46px] mt-9 poppins mx-5"
-          >
-            <span>Building dev team,</span><br /><span>Quickly and</span
-            ><br /><span>Affordably</span>
-          </h1>
-        </div>
-        <div>
-          <p
-            class="text-[#16205f] text-xl poppins font-normal mt-5 mx-5 text-start"
-          >
-            We specialize in helping you build a team of expert developers,
-            testers, and leaders. We are setup to deliver long term solutions,
-            or scale to different needs quickly.
-          </p>
-        </div>
-        <div class="w-full flex justify-center mt-9">
-          <button
-            class="custom-bg-gradient w-full md:w-1/2 h-14 flex justify-center items-center gap-x-2 rounded-lg mx-5 shadow-lg"
-          >
-            <p class="text-white font-semibold text-base">Build a team</p>
-            <img src="./assets//icons/arrow_forward.svg" alt="arrow-forward" />
-          </button>
+        <div class="lg:flex lg:flex-col lg:justify-center lg:mx-10 xl:mx-32">
+          <div class="lg:flex lg:justify-end">
+            <div>
+              <img
+                class="w-full lg:w-[600px] lg:mt-4 lg:h-[520px] xl:w-[750px]"
+                src="./assets/images/Rectangle 26.png"
+                alt="hero-image"
+              />
+            </div>
+            <div
+              class="lg:bg-white lg:absolute lg:pb-8 z-50 top-28 left-20 lg:w-[580px] rounded-tr-[100px] xl:left-[110px]"
+            >
+              <div>
+                <div>
+                  <h1
+                    class="text-[#16205f] text-3xl font-semibold leading-[46px] mt-9 poppins mx-5"
+                  >
+                    <span>Building dev team,</span><br /><span>Quickly and</span
+                    ><br /><span>Affordably</span>
+                  </h1>
+                </div>
+                <div>
+                  <p
+                    class="text-[#16205f] text-xl poppins font-normal mt-5 mx-5 text-start"
+                  >
+                    We specialize in helping you build a team of expert
+                    developers, testers, and leaders. We are setup to deliver
+                    long term solutions, or scale to different needs quickly.
+                  </p>
+                </div>
+                <div class="w-full flex justify-center lg:justify-start mt-9">
+                  <button
+                    class="custom-bg-gradient w-full lg:w-[201px] md:w-1/2 h-14 flex justify-center items-center gap-x-2 rounded-lg mx-5 shadow-lg"
+                  >
+                    <p class="text-white font-semibold text-base">
+                      Build a team
+                    </p>
+                    <img
+                      class="fill-white"
+                      src="./assets/icons/arrow_forward.svg"
+                      alt="arrow-forward"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="lg:hidden text-[#16205f] mx-5 mt-20">
+              <h3 class="text-[22px] font-semibold mb-4">Solutions</h3>
+              <h1 class="text-4xl font-semibold">
+                Software Solutions, with expert software engineering teams
+              </h1>
+              <p class="mt-7 text-xl w-[340px] md:w-full">
+                We specialize in helping you build a team of expert developers,
+                testers, and leaders.
+              </p>
+            </div>
+            <div class="lg:flex">
+              <div class="lg:flex items-start justify-start lg:gap-x-4">
+                <div class="flex justify-center items-center">
+                  <img
+                    class="bg-[#fff856] rounded-xl mt-16 mb-[38px] p-2 lg:w-[300px]"
+                    src="./assets/images/cube 1.png"
+                    alt="cube-image"
+                  />
+                </div>
+                <div class="pt-14 mx-5 text-[#16205f]">
+                  <h2 class="text-[28px] font-semibold mb-3 leading-9">
+                    Architect your Solution
+                  </h2>
+                  <p class="text-start mr-[54px] mb-14">
+                    Our team in on your operational, technological, and
+                    strategic challenges through an in-depth understanding of
+                    your business. We design a strategic roadmap to guide your
+                    result-oriented goals.
+                  </p>
+                </div>
+              </div>
+              <div class="lg:flex items-start justify-start lg:gap-x-4 hidden">
+                <div class="flex justify-center items-center">
+                  <img
+                    class="bg-[#fff856] rounded-xl mt-16 mb-[38px] p-2 lg:w-[300px]"
+                    src="./assets/images/software-application 1.png"
+                    alt="cube-image"
+                  />
+                </div>
+                <div class="pt-14 hidden lg:block text-[#16205f]">
+                  <h2 class="text-[28px] font-semibold mb-3 leading-9">
+                    Engineer your Solution
+                  </h2>
+                  <p class="text-start mr-[54px] mb-14">
+                    We promptly put together your nearshore engineering dream
+                    team to fulfill your specific requirements. We create the
+                    most elegant solution for your difficulties by combining our
+                    deep tech expertise, Top 1% Tech Talent, and
+                    industry-specific experience.
+                  </p>
+                </div>
+              </div>
+              <div class="lg:flex items-start justify-start lg:gap-x-4 hidden">
+                <div class="flex justify-center items-center">
+                  <img
+                    class="bg-[#fff856] rounded-xl mt-16 mb-[38px] p-2 lg:w-[300px]"
+                    src="./assets/images/technical-support 1.png"
+                    alt="cube-image"
+                  />
+                </div>
+                <div class="pt-14 hidden lg:block text-[#16205f]">
+                  <h2 class="text-[28px] font-semibold mb-3 leading-9">
+                    ReEngineer your Business Process
+                  </h2>
+                  <p class="text-start mr-[54px] mb-14">
+                    Bolster by our team, your digital transformation swiftly
+                    gains speed and evolves into a digital acceleration. This
+                    process places the foundation for a more efficient and
+                    strong business that can meet demands at scale.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="mx-5 mt-16 text-[#16205f] poppins">
-          <h3 class="text-[22px] font-semibold mb-4">Solutions</h3>
-          <h1 class="text-4xl font-semibold">
-            Software Solutions, with expert software engineering teams
-          </h1>
-          <p class="mt-7 text-xl w-[340px] md:w-full">
-            We specialize in helping you build a team of expert developers,
-            testers, and leaders.
-          </p>
-          <div class="flex justify-center items-center">
-            <img
-              class="bg-[#fff856] rounded-xl mt-16 mb-[38px] p-2"
-              src="./assets/images/cube 1.png"
-              alt="cube-image"
-            />
-          </div>
-          <h2 class="text-[28px] font-semibold mb-3 leading-9">
-            Architect your Solution
-          </h2>
-          <p class="text-start mr-[54px] mb-14">
-            Our team in on your operational, technological, and strategic
-            challenges through an in-depth understanding of your business. We
-            design a strategic roadmap to guide your result-oriented goals.
-          </p>
-          <div class="mt-14 flex justify-center items-center mb-[152px] gap-4">
+          <div
+            class="mt-14 flex justify-center items-center mb-[152px] gap-4 lg:hidden"
+          >
             <div class="w-12 h-2 shrink-0 bg-[#9F9F9F]"></div>
             <div class="w-12 h-2 shrink-0 bg-[#e1e1e1]"></div>
             <div class="w-12 h-2 shrink-0 bg-[#e1e1e1]"></div>
@@ -79,42 +184,44 @@
         <h1 class="text-white text-[22px] font-semibold">How to start</h1>
         <h2 class="text-white mt-6 font-semibold text-4xl">Easy Process</h2>
         <div class="flex justify-center items-center">
-          <p class="mt-4 w-[218px] text-center box-border">
+          <p class="mt-4 w-[218px] lg:w-[400px] text-center box-border">
             We specialize in helping you build a team of expert developers,
             testers, and leaders.
           </p>
         </div>
-        <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
-          <img src="./assets/icons/Group.svg" alt="image" />
-          <p
-            class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
-          >
-            <span class="text-[46px] mr-4">01</span>You Ask
-          </p>
-        </div>
-        <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
-          <img src="./assets/icons/Group (1).svg" alt="image" />
-          <p
-            class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
-          >
-            <span class="text-[46px] mr-4">02</span>we proceed
-          </p>
-        </div>
-        <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
-          <img src="./assets/icons/handshake 3.svg" alt="image" />
-          <p
-            class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
-          >
-            <span class="text-[46px] mr-4">03</span>negociate
-          </p>
-        </div>
-        <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
-          <img src="./assets/icons/medal 3.svg" alt="image" />
-          <p
-            class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
-          >
-            <span class="text-[46px] mr-4">04</span>you get
-          </p>
+        <div class="lg:flex justify-center items-baseline gap-x-14">
+          <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
+            <img src="./assets/icons/Group.svg" alt="image" />
+            <p
+              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
+            >
+              <span class="text-[46px] mr-4">01</span>You Ask
+            </p>
+          </div>
+          <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
+            <img src="./assets/icons/Group (1).svg" alt="image" />
+            <p
+              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
+            >
+              <span class="text-[46px] mr-4">02</span>we proceed
+            </p>
+          </div>
+          <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
+            <img src="./assets/icons/handshake 3.svg" alt="image" />
+            <p
+              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
+            >
+              <span class="text-[46px] mr-4">03</span>negociate
+            </p>
+          </div>
+          <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
+            <img src="./assets/icons/medal 3.svg" alt="image" />
+            <p
+              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
+            >
+              <span class="text-[46px] mr-4">04</span>you get
+            </p>
+          </div>
         </div>
       </section>
       <section class="mx-5 poppins text-[#16205f] pt-16">
@@ -297,7 +404,7 @@
             <div class="mt-11">
               <button
                 type="button"
-                class="custom-bg-gradient bg-gradient-to-r from-[#F90] to-[#F2CB00] flex justify-center items-center gap-x-4 h-[54px] rounded-lg w-[310px] text-white font-semibold"
+                class="custom-bg-gradient bg-gradient-to-r from-[#F90] to-[#F2CB00] flex justify-center items-center gap-x-4 h-[54px] rounded-lg w-[310px] text-white font-semibold shadow-lg"
               >
                 <p>Get consultaion</p>
                 <img src="./assets/icons/arrow_forward.svg" alt="icon" />
@@ -317,16 +424,19 @@
           Expertly trained, battle-tested, elite software developers on demand
         </p>
         <div class="flex items-center gap-x-4">
-          <img src="./assets/icons/Phone enabled.svg" alt="phone-icon">
+          <img src="./assets/icons/Phone enabled.svg" alt="phone-icon" />
           <p>+94 713249222</p>
         </div>
         <div class="flex items-center gap-x-4 mt-6">
-          <img src="./assets/icons/Email.svg" alt="phone-icon">
+          <img src="./assets/icons/Email.svg" alt="phone-icon" />
           <p>hello@courtney.lk</p>
         </div>
         <div class="flex items-center gap-x-4 mt-6">
-          <img src="./assets/icons/Location on.svg" alt="phone-icon">
-          <p class="w-[272px]">Courtney Lanka (Private) Limited Level 35 World Trade Center Colombo 01</p>
+          <img src="./assets/icons/Location on.svg" alt="phone-icon" />
+          <p class="w-[272px]">
+            Courtney Lanka (Private) Limited Level 35 World Trade Center Colombo
+            01
+          </p>
         </div>
       </div>
       <div>
@@ -340,7 +450,9 @@
         </ul>
       </div>
       <div>
-        <h3 class="text-[22px] font-semibold pb-7 mt-16 capitalize">Services</h3>
+        <h3 class="text-[22px] font-semibold pb-7 mt-16 capitalize">
+          Services
+        </h3>
         <ul class="text-lg space-y-[26px] capitalize">
           <li>hire permanent staff</li>
           <li>staff augmentation</li>
@@ -352,7 +464,7 @@
         <h3 class="text-[22px] font-semibold pb-7 mt-16">How to start</h3>
         <ul class="text-lg space-y-[26px] capitalize">
           <li>you asked</li>
-          <li> we proceed</li>
+          <li>we proceed</li>
           <li>negotiate</li>
           <li>you get</li>
         </ul>
@@ -360,11 +472,11 @@
       <div class="mb-12">
         <p class="text-lg font-semibold mt-[90px] pb-[22px]">Follow us</p>
         <div class="flex items-center justify-between">
-          <img src="./assets/icons/LinkedIn.svg" alt="linkedin-icon">
-          <img src="./assets/icons/Facebook.svg" alt="facebook-icon">
-          <img src="./assets/icons/Instagram.svg" alt="instagram-icon">
-          <img src="./assets/icons/Twitter.svg" alt="twitter-icon">
-          <img src="./assets/icons/YouTube.svg" alt="youtube-icon">
+          <img src="./assets/icons/LinkedIn.svg" alt="linkedin-icon" />
+          <img src="./assets/icons/Facebook.svg" alt="facebook-icon" />
+          <img src="./assets/icons/Instagram.svg" alt="instagram-icon" />
+          <img src="./assets/icons/Twitter.svg" alt="twitter-icon" />
+          <img src="./assets/icons/YouTube.svg" alt="youtube-icon" />
         </div>
       </div>
       <div class="mb-[81px]">
