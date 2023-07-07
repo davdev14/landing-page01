@@ -9,10 +9,10 @@ body,html {
 }
 
 .hero-image{
-  background-image: url(./assets/images/Rectangle\ 26.png);
+  background-image: url(/assets/images/Rectangle\ 26.png);
 }
 .bg-image{
-  background-image: url(./assets/images/Rectangle\ 203.png);
+  background-image: url(/assets/images/Rectangle\ 203.png);
 }
 .poppins{
   font-family: "poppins", sans-serif;
