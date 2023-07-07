@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Poppins?query=pop"
+    />
+    <title>Modal</title>
+  </head>
+  <body class="bg-black flex justify-center items-center h-screen">
+    <div class="bg-white rounded-xl text-[#16205f] poppins w-1/2 p-12 pb-72">
+      <div class="flex flex-col items-start">
+        <h1 class="text-[46px] font-semibold">Build a team</h1>
+        <p class="text-lg">We specialize in helping you build a team.</p>
+      </div>
+      <div class="flex items-center mt-10">
+        <button class="custom-bg-gradient custom-shadow text-white px-10 py-2 rounded-lg">Option 1</button>
+        <button class="custom-shadow text-[#8a8a8a] px-10 py-2 rounded-lg">Option 2</button>
+      </div>
+      <div class="lg:flex lg:items-center lg:justify-start lg:gap-x-4">
+        <div class="flex items-start justify-start flex-col mt-7">
+          <label class="font-semibold" for="company">Company</label>
+          <input
+            placeholder="placeholder"
+            class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+            type="text"
+            id="company"
+          />
+        </div>
+        <div class="flex items-start justify-start flex-col mt-7">
+          <label class="font-semibold" for="your-name">Your Name</label>
+          <input
+            placeholder="placeholder"
+            class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+            type="text"
+            id="your-name"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
