@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,html {
+  width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 .hero-image{
   background-image: url(./assets/images/Rectangle\ 26.png);
 }

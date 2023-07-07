@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    "*.html",
+    "*src/pages/**/*.html"
+  ],
   theme: {
-    screens: {
-      'xs': '375px',
-    },
     extend: {
-      screens:{
-        'sm': '375px'
-      },
+      screens: {
+        "ls": "600px"
+      }
     },
   },
   plugins: [],

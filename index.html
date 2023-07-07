@@ -2,45 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/index.css" />
-    <link
+    <link rel="stylesheet" href="/dist/index.css" />
+    <!-- <link
       rel="stylesheet"
       href="https://fonts.google.com/specimen/Poppins?query=pop"
-    />
+    /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page01</title>
   </head>
   <body class="relative">
     <nav
-      class="flex items-center justify-between lg:justify-start lg:gap-x-10 xl:justify-around bg-white px-6 lg:px-2 xl:px-6 w-full text-[#16205f] poppins text-lg border-b border-[#e1e1e1]"
+      class="flex items-center justify-between bg-white p-4 w-full text-[#16205f] poppins text-lg border-b border-[#e1e1e1] lg:px-[20px] xl:px-[146px]"
     >
-      <a class="cursor-pointer" href="/index.html">
-        <img src="./assets/images/logo 1.png" alt="courtney-lanka-logo" />
-      </a>
+      <div class="flex items-center">
+        <a class="cursor-pointer pr-8" href="/index.html">
+          <img src="./assets/images/logo 1.png" alt="courtney-lanka-logo" />
+        </a>
+        <div class="hidden lg:flex xl:gap-x-[60px] lg:gap-x-4">
+          <ul
+            class="flex items-center justify-center lg:gap-x-6 xl:gap-x-[30px]"
+          >
+            <li><a href="/how-to-start.html">How to start</a></li>
+            <li class="flex">
+              <a href="">Services</a>
+              <img src="./assets/icons/keyboard_arrow_down.svg" alt="icon" />
+            </li>
+            <li class="flex">
+              <a href="/technologies.html">Technologies</a>
+              <img src="./assets/icons/keyboard_arrow_down.svg" alt="icon" />
+            </li>
+            <li><a href="/careers.html">Careers</a></li>
+          </ul>
+        </div>
+      </div>
       <img class="lg:hidden" src="./assets/icons/Menu.svg" alt="menu-icon" />
-      <div class="hidden lg:flex xl:gap-x-[60px] lg:gap-x-4">
-        <ul class="flex items-center justify-center lg:gap-x-6 xl:gap-x-[30px]">
-          <li><a href="/how-to-start.html">How to start</a></li>
-          <li class="flex">
-            <a href="">Services</a>
-            <img src="./assets/icons/keyboard_arrow_down.svg" alt="icon" />
-          </li>
-          <li class="flex">
-            <a href="/technologies.html">Technologies</a>
-            <img src="./assets/icons/keyboard_arrow_down.svg" alt="icon" />
-          </li>
-          <li><a href="/careers.html">Careers</a></li>
-        </ul>
+      <div class="hidden lg:flex">
         <div class="flex items-center justify-end lg:gap-x-4 xl:gap-x-6">
           <button
-            class="flex items-center justify-center bg-white uppercase border-2 border-[#16205f] rounded-lg h-10 w-[189px] font-semibold"
+            class="text-[16px] flex items-center justify-center bg-white uppercase border-2 border-[#16205f] rounded-lg h-10 px-4 space-x-2 font-semibold"
           >
             <p>build a team</p>
-            <img
-              src="./assets/icons/arrow_forward_black.svg"
-              alt="icon"
-            />
+            <img src="./assets/icons/arrow_forward_black.svg" alt="icon" />
           </button>
           <a href="/contact.html">Contact us</a>
         </div>
@@ -48,8 +50,8 @@
     </nav>
     <main>
       <section>
-        <div class="lg:flex lg:flex-col lg:justify-center lg:mx-10 xl:mx-32">
-          <div class="lg:flex lg:justify-end">
+        <div class="lg:flex lg:flex-col lg:justify-center xl:mx-32">
+          <div class="lg:flex lg:justify-end mx-5">
             <div>
               <img
                 class="w-full lg:w-[600px] lg:mt-4 lg:h-[520px] xl:w-[750px]"
@@ -58,20 +60,21 @@
               />
             </div>
             <div
-              class="lg:bg-white lg:absolute lg:pb-8 z-50 top-28 left-20 lg:w-[580px] rounded-tr-[100px] xl:left-[110px] 2xl:left-96"
+              class="lg:bg-white lg:absolute lg:pb-8 z-50 lg:top-36 lg:left-32 xl:top-36 xl:left-[17rem] lg:w-[580px] rounded-tr-[100px] 2xl:left-96"
             >
               <div>
                 <div>
                   <h1
-                    class="text-[#16205f] text-3xl font-semibold leading-[46px] mt-9 poppins mx-5"
+                    class="text-[#16205f] text-3xl font-semibold leading-[46px] mt-9 poppins"
                   >
-                    <span>Building dev team,</span><br /><span>Quickly and</span
-                    ><br /><span>Affordably</span>
+                    Building dev team, <br />
+                    Quickly and <br />
+                    Affordably
                   </h1>
                 </div>
                 <div>
                   <p
-                    class="text-[#16205f] text-xl poppins font-normal mt-5 mx-5 text-start"
+                    class="text-[#16205f] text-xl poppins font-normal mt-5 text-start"
                   >
                     We specialize in helping you build a team of expert
                     developers, testers, and leaders. We are setup to deliver
@@ -101,12 +104,12 @@
               <h1 class="text-4xl font-semibold">
                 Software Solutions, with expert software engineering teams
               </h1>
-              <p class="mt-7 text-xl w-[340px] md:w-full">
+              <p class="mt-7 text-xl w-[340px]">
                 We specialize in helping you build a team of expert developers,
                 testers, and leaders.
               </p>
             </div>
-            <div class="lg:flex">
+            <div class="lg:flex justify-evenly items-baseline gap-4 mx-5">
               <div class="lg:flex items-start justify-start lg:gap-x-4">
                 <div class="flex justify-center items-center">
                   <img
@@ -115,11 +118,11 @@
                     alt="cube-image"
                   />
                 </div>
-                <div class="pt-14 mx-5 text-[#16205f]">
+                <div class="pt-14 text-[#16205f]">
                   <h2 class="text-[28px] font-semibold mb-3 leading-9">
                     Architect your Solution
                   </h2>
-                  <p class="text-start mr-[54px] mb-14">
+                  <p class="text-justify">
                     Our team in on your operational, technological, and
                     strategic challenges through an in-depth understanding of
                     your business. We design a strategic roadmap to guide your
@@ -135,11 +138,13 @@
                     alt="cube-image"
                   />
                 </div>
-                <div class="pt-14 hidden lg:block text-[#16205f]">
-                  <h2 class="text-[28px] font-semibold mb-3 leading-9">
+                <div class="pt-14 text-[#16205f]">
+                  <h2
+                    class="w-[184px] text-[28px] font-semibold mb-3 leading-9"
+                  >
                     Engineer your Solution
                   </h2>
-                  <p class="text-start mr-[54px] mb-14">
+                  <p class="text-justify">
                     We promptly put together your nearshore engineering dream
                     team to fulfill your specific requirements. We create the
                     most elegant solution for your difficulties by combining our
@@ -160,7 +165,7 @@
                   <h2 class="text-[28px] font-semibold mb-3 leading-9">
                     ReEngineer your Business Process
                   </h2>
-                  <p class="text-start mr-[54px] mb-14">
+                  <p class="text-justify">
                     Bolster by our team, your digital transformation swiftly
                     gains speed and evolves into a digital acceleration. This
                     process places the foundation for a more efficient and
@@ -182,10 +187,12 @@
         </div>
       </section>
       <section class="custom-bg-gradient text-center pt-[59px] pb-28 poppins">
-        <h1 class="text-white text-[22px] font-semibold">How to start</h1>
-        <h2 class="text-white mt-6 font-semibold text-4xl">Easy Process</h2>
+        <h1 class="text-white text-xl font-semibold">How to start</h1>
+        <h2 class="text-[#16205f] mt-6 font-semibold text-4xl">Easy Process</h2>
         <div class="flex justify-center items-center">
-          <p class="mt-4 w-[218px] lg:w-[400px] text-center box-border">
+          <p
+            class="mt-4 w-[218px] lg:w-[400px] text-center box-border text-[#16205f]"
+          >
             We specialize in helping you build a team of expert developers,
             testers, and leaders.
           </p>
@@ -194,7 +201,7 @@
           <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
             <img src="./assets/icons/Group.svg" alt="image" />
             <p
-              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
+              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase pt-8"
             >
               <span class="text-[46px] mr-4">01</span>You Ask
             </p>
@@ -202,7 +209,7 @@
           <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
             <img src="./assets/icons/Group (1).svg" alt="image" />
             <p
-              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
+              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase pt-8"
             >
               <span class="text-[46px] mr-4">02</span>we proceed
             </p>
@@ -210,7 +217,7 @@
           <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
             <img src="./assets/icons/handshake 3.svg" alt="image" />
             <p
-              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
+              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase pt-8"
             >
               <span class="text-[46px] mr-4">03</span>negociate
             </p>
@@ -218,37 +225,37 @@
           <div class="flex justify-center items-center flex-col gap-y-4 mt-14">
             <img src="./assets/icons/medal 3.svg" alt="image" />
             <p
-              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase"
+              class="text-[#16205f] font-semibold leading-9 text-[28px] uppercase pt-8"
             >
               <span class="text-[46px] mr-4">04</span>you get
             </p>
           </div>
         </div>
       </section>
-      <section
-        class="mx-5 lg:mx-10 xl:mx-12 poppins text-[#16205f] pt-16 lg:pb-[77px]"
-      >
+      <section class="mx-5 xl:mx-32 poppins text-[#16205f] pt-16 lg:pb-[77px]">
         <h1 class="text-[22px] font-semibold">Expertise</h1>
         <div class="lg:w-[600px]">
           <h2 class="text-4xl font-semibold mt-5">
             Hire Permanent and Remote Developers
           </h2>
-          <p class="mt-5 w-[287px] lg:w-[413px] md:w-full">
+          <p class="mt-5 w-[287px] lg:w-[413px]">
             From full-time remote engineering teams to hourly contractors, work
             with remote devs as needed
           </p>
         </div>
-        <div class="lg:flex lg:justify-start lg:items-baseline lg:gap-x-4">
+        <div class="lg:grid grid-cols-4 grid-rows-1 items-start lg:gap-x-4">
           <div class="flex justify-center items-center flex-col lg:items-start">
             <img
               class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-20"
               src="./assets/icons/link 1.png"
               alt="image"
             />
-            <p class="mt-[39px] text-[28px] font-semibold capitalize">
+            <p
+              class="mt-[39px] text-[28px] font-semibold capitalize lg:w-[100px]"
+            >
               dedicated teams
             </p>
-            <p class="text-lg mt-3">Find your next team member</p>
+            <p class="text-lg mt-3 lg:w-[145px]">Find your next team member</p>
           </div>
           <div
             class="lg:flex justify-center items-center flex-col lg:items-start hidden"
@@ -286,7 +293,9 @@
               src="./assets/icons/shield 1.png"
               alt="image"
             />
-            <p class="mt-[39px] text-[28px] font-semibold capitalize">
+            <p
+              class="mt-[39px] text-[28px] font-semibold capitalize lg:w-[100px]"
+            >
               Remote Office
             </p>
             <p class="text-lg mt-3">
@@ -303,15 +312,21 @@
           <div class="w-12 h-2 shrink-0 bg-[#e1e1e1]"></div>
         </div>
       </section>
-      <section class="bg-[hsl(0,0%,97.65%)] poppins pt-[100px] pb-[119px]">
-        <h1 class="text-[#001d84] font-semibold text-[22px] px-5 lg:px-10 xl:mx-20">Specialized</h1>
-        <h2 class="text-[#001d84] mt-4 text-4xl font-semibold lg:w-[422px] px-5 lg:px-10 xl:mx-20">
-          Specialized Staff We Provide
-        </h2>
-        <div class="lg:flex flex-wrap lg:flex w-full lg:gap-x-4 px-5 lg:px-10 xl:mx-20">
-          <div class="lg:flex lg:flex-col">
+      <section
+        class="bg-[hsl(0,0%,97.65%)] poppins pt-[100px] pb-[119px] xl:px-32"
+      >
+        <div class="mx-5 xl:mx-0">
+          <h1 class="text-[#001d84] font-semibold text-[22px]">Specialized</h1>
+          <h2 class="text-[#001d84] mt-4 text-4xl font-semibold lg:w-[422px]">
+            Specialized Specialized Staff We Provide
+          </h2>
+        </div>
+        <div
+          class="mx-5 lg:mx-0 grid ls:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-5 mt-5"
+        >
+          <div class="lg:flex lg:flex-col items-center space-y-5">
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full pr-4 pl-7"
             >
               <img
                 class="ml-9"
@@ -321,35 +336,35 @@
               <p class="capitalize">frontend engineers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px]"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full pr-4 pl-7"
             >
               <img
-                class="ml-9"
+                class="pl-9"
                 src="/assets/icons/software-application 3.png"
                 alt="image"
               />
               <p class="capitalize">fullstack engineers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px]"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full pr-4 pl-7"
             >
               <img class="ml-9" src="/assets/icons/uiux 2.png" alt="image" />
               <p class="capitalize">UI/UX engineers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px]"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img class="ml-9" src="/assets/icons/quality 2.png" alt="image" />
               <p class="capitalize">QA engineers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px]"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img class="ml-9" src="/assets/icons/idea 1.png" alt="image" />
               <p class="capitalize">product designer</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px]"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img
                 class="ml-9"
@@ -359,19 +374,20 @@
               <p>Database admin</p>
             </div>
           </div>
-          <div class="lg:flex lg:flex-col">
+          <div class="flex-col items-center hidden ls:flex space-y-5">
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full pr-4 pl-7"
             >
               <img
-                class="ml-9"
+                class="w-12 h-12"
                 src="/assets/icons/angular_solidBlack.png"
                 alt="image"
+                
               />
               <p>angular developers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img
                 class="ml-9"
@@ -381,13 +397,13 @@
               <p>devOps + devsecOps engineers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img class="ml-9" src="/assets/icons/PHP.png" alt="image" />
               <p>PHP developers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img
                 class="ml-9"
@@ -397,21 +413,23 @@
               <p>Wordpress CMS developers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img class="ml-9" src="/assets/icons/phone 3.png" alt="image" />
               <p>Mobile app developers</p>
             </div>
           </div>
-          <div class="lg:flex lg:flex-col">
+          <div class="lg:flex lg:flex-col items-center">
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img class="ml-9" src="/assets/icons/chip 2.png" alt="image" />
-              <p>AI and ML engineers deep learning/Machine vision / NLP</p>
+              <p class="text-base leading-0">
+                AI and ML engineers deep learning/Machine vision/NLP
+              </p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img
                 class="ml-9"
@@ -421,13 +439,13 @@
               <p>Data scientist / Data engineers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img class="ml-9" src="/assets/icons/scrum 2.png" alt="image" />
               <p>project managers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img
                 class="ml-9"
@@ -437,15 +455,15 @@
               <p>business analyst</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img class="ml-9" src="/assets/icons/padlock 1.png" alt="image" />
               <p>information security engineers</p>
             </div>
           </div>
-          <div class="lg:flex lg:flex-col">
+          <div class="lg:flex lg:flex-col items-center">
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img
                 class="ml-9"
@@ -455,13 +473,13 @@
               <p>Application Security Engineers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img class="ml-9" src="/assets/icons/phone 2.png" alt="image" />
               <p>IOS and Android Developers</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img
                 class="ml-9"
@@ -471,7 +489,7 @@
               <p>Solution Architects</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img
                 class="ml-9"
@@ -481,7 +499,7 @@
               <p>Tech Leads / Team Leads</p>
             </div>
             <div
-              class="mt-8 bg-white text-[#16205f] font-semibold text-lg w-[371px] md:w-full h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 lg:w-[375px] hidden"
+              class=" bg-white text-[#16205f] font-semibold text-lg h-[72px] rounded-xl lg:flex items-center justify-start gap-x-6 relative after:content-[''] after:bg-[#fff856] after:w-[13px] after:h-[72px] after:rounded-l-xl after:absolute after:left-0 after:top-0 w-full"
             >
               <img
                 class="ml-9"
@@ -584,7 +602,7 @@
                 <label class="font-semibold" for="company">Company</label>
                 <input
                   placeholder="placeholder"
-                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
                   type="text"
                   id="company"
                 />
@@ -593,7 +611,7 @@
                 <label class="font-semibold" for="your-name">Your Name</label>
                 <input
                   placeholder="placeholder"
-                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
                   type="text"
                   id="your-name"
                 />
@@ -605,7 +623,7 @@
                   >Phone Number</label
                 >
                 <input
-                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
                   type="number"
                   id="phone-number"
                 />
@@ -614,7 +632,7 @@
                 <label class="font-semibold" for="email">Email</label>
                 <input
                   placeholder="placeholder"
-                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
                   type="text"
                   id="email"
                 />
@@ -629,7 +647,7 @@
               >
               <textarea
                 placeholder="placeholder"
-                class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)]"
+                class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] placeholder:text-[rgba(0, 0, 0, 0.50)]"
                 id="project-detail"
                 cols="30"
                 rows="3"
@@ -657,7 +675,9 @@
     </main>
     <div class="border border-[#c4c4c4] mb-[100px] mx-5 lg:mx-0"></div>
     <footer class="poppins text-[#16205f]">
-      <div class="lg:flex items-baseline justify-between mx-5 md:mx-10 xl:mx-32">
+      <div
+        class="lg:flex items-baseline justify-between mx-5 md:mx-10 xl:mx-32"
+      >
         <div class="lg:flex lg:flex-col">
           <div>
             <img src="./assets/images/logo 1.png" alt="logo" />
@@ -719,7 +739,9 @@
       </div>
       <div class="mb-12 mx-5 md:mx-10 xl:mx-32">
         <p class="text-lg font-semibold mt-[90px] pb-[22px]">Follow us</p>
-        <div class="flex items-center justify-between lg:justify-start lg:gap-x-8">
+        <div
+          class="flex items-center justify-between lg:justify-start lg:gap-x-8"
+        >
           <img src="./assets/icons/LinkedIn.svg" alt="linkedin-icon" />
           <img src="./assets/icons/Facebook.svg" alt="facebook-icon" />
           <img src="./assets/icons/Instagram.svg" alt="instagram-icon" />
