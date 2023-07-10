@@ -20,6 +20,11 @@ body,html {
 .custom-bg-gradient{
   background: var(--yellow, linear-gradient(90deg, #F90 0%, #F2CB00 100%));
 }
+.text-gradient{
+  background: -webkit-linear-gradient(#f90 0%, #f2cb00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .custom-shadow{
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.12); 
 }

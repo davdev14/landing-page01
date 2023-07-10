@@ -9,7 +9,7 @@ module.exports = {
       screens: {
         "ls": "600px",
         "xs": "1440"
-      }
+      },
     },
   },
   plugins: [],
