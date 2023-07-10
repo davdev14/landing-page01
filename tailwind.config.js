@@ -10,6 +10,9 @@ module.exports = {
         "ls": "600px",
         "xs": "1440"
       },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
+      },
     },
   },
   plugins: [],
