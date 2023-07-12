@@ -4,47 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/dist/index.css" />
-    <!-- <link
-      rel="stylesheet"
-      href="https://fonts.google.com/specimen/Poppins?query=pop"
-    /> -->
     <title>Services</title>
   </head>
   <body>
     <nav
-      class="flex items-center justify-between bg-white p-4 w-full text-[#16205f] poppins text-lg border-b border-[#e1e1e1] lg:px-[20px] px-5 xl:px-32"
+      class="flex items-center justify-between bg-white py-1 w-full text-[#16205f] lg:text-xs  xl:text-sm 2xl:text-base border-b border-[#e1e1e1] px-5 lg:px-24 xl:px-28 2xl:px-32 3xl:px-40"
     >
-      <div class="flex items-center">
-        <a class="cursor-pointer pr-8" href="/index.html">
-          <img src="/assets/images/logo 1.png" alt="courtney-lanka-logo" />
-        </a>
-        <div class="hidden lg:flex xl:gap-x-[60px] lg:gap-x-4">
+        <div>
+          <a class="cursor-pointer" href="/index.html">
+            <img class="w-32 xl:w-32 2xl:w-40" src="/assets/images/logo 1.png" alt="courtney-lanka-logo" />
+          </a>
+        </div>
+        <ul class="menu fixed translate-y-[-100%] transition-transform duration-[0.2s] top-0 left-0 right-0 bottom-0 z-50 bg-white text-[#16205f] px-9 pt-8 text-3xl flex flex-col gap-y-9">
+          <li class="flex justify-end pb-12">
+            <img class="close-icon hidden" src="/assets/icons/Close.svg" alt="menu-icon" />
+          </li>
+          <li><a class="menu-item" href="/src/pages/how-to-start.html">How to start</a></li>
+          <li class="flex items-center justify-between menu-item text-gradient">
+            <a href="/src/pages/services.html">Services</a>
+            <img src="/assets/icons/keyboard_arrow_down.svg" alt="icon" />
+          </li>
+          <li class="flex items-center justify-between menu-item">
+            <a href="/src/pages/technologies.html">Technologies</a>
+            <img src="/assets/icons/keyboard_arrow_down.svg" alt="icon" />
+          </li>
+          <li><a class="menu-item" href="/src/pages/careers.html">Careers</a></li>
+          <li>
+            <div class="w-full flex justify-start lg:justify-start mt-9 menu-item">
+              <button
+                class="custom-bg-gradient w-full lg:w-[201px] md:w-1/2 h-14 flex justify-center items-center gap-x-2 rounded-lg shadow-md"
+              >
+                <p class="text-white font-semibold text-base">
+                  Build a team
+                </p>
+                <img
+                  class="fill-white"
+                  src="/assets/icons/arrow_forward.svg"
+                  alt="arrow-forward"
+                />
+              </button>
+            </div>
+          </li>
+        </ul>
+        <button class="hamburger">
+          <img class="menu-icon lg:hidden" src="/assets/icons/Menu.svg" alt="menu-icon" />
+          
+        </button>
+        <div class="hidden lg:flex">
           <ul
-            class="flex items-center justify-center lg:gap-x-6 xl:gap-x-[30px]"
+            class="flex items-center justify-center lg:gap-x-6 xl:gap-x-8 2xl:gap-x-12"
           >
-            <li><a href="/how-to-start.html">How to start</a></li>
-            <li class="flex">
-              <a href="" class="text-gradient">Services</a>
+            <li class=""><a href="/src/pages/how-to-start.html">How to start</a></li>
+            <li class="flex items-center text-gradient">
+              <a href="/src/pages/services.html">Services</a>
               <img src="/assets/icons/keyboard_arrow_down.svg" alt="icon" />
             </li>
-            <li class="flex">
-              <a href="/technologies.html">Technologies</a>
+            <li class="flex items-center">
+              <a href="/src/pages/technologies.html">Technologies</a>
               <img src="/assets/icons/keyboard_arrow_down.svg" alt="icon" />
             </li>
-            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/src/pages/careers.html">Careers</a></li>
           </ul>
         </div>
-      </div>
-      <img class="lg:hidden" src="/assets/icons/Menu.svg" alt="menu-icon" />
       <div class="hidden lg:flex">
         <div class="flex items-center justify-end lg:gap-x-4 xl:gap-x-6">
           <button
-            class="text-[16px] flex items-center justify-center bg-white uppercase border-2 border-[#16205f] rounded-lg h-10 px-4 space-x-2 font-semibold"
+            class="flex items-center justify-center bg-white uppercase border-2 border-[#16205f] rounded-lg py-1 px-3 space-x-1 font-semibold"
           >
             <p>build a team</p>
             <img src="/assets/icons/arrow_forward_black.svg" alt="icon" />
           </button>
-          <a href="/contact.html">Contact us</a>
+          <a href="/src/pages/contact.html">Contact us</a>
         </div>
       </div>
     </nav>
@@ -63,7 +93,7 @@
         </div>
       </header>
       <section
-        class="px-5 xl:px-32 poppins text-[#16205f] pt-16 lg:pb-[77px]"
+        class="px-5 lg:px-24 xl:px-28 2xl:px-32 3xl:px-40 poppins text-[#16205f] pt-16 lg:pb-[77px]"
       >
         <div class="lg:w-[800px]">
           <h2 class="text-[46px] font-semibold mt-5">
@@ -77,7 +107,7 @@
         <div class="lg:grid grid-cols-2 grid-rows-2">
           <div class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-x-4">
             <img
-              class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-20"
+              class="mt-[77px] bg-[#fff856] rounded-lg p-1 lg:w-12 xl:w-[70px]"
               src="/assets/icons/link 1.png"
               alt="image"
             />
@@ -97,7 +127,7 @@
             class="lg:flex hidden justify-center items-center lg:items-start gap-x-4"
           >
             <img
-              class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-20"
+              class="mt-[77px] bg-[#fff856] rounded-lg p-1 lg:w-12 xl:w-[70px]"
               src="/assets/icons/management 1.png"
               alt="image"
             />
@@ -120,7 +150,7 @@
             class="lg:flex hidden justify-center items-center lg:items-start gap-x-4"
           >
             <img
-              class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-20"
+              class="mt-[77px] bg-[#fff856] rounded-lg p-1 lg:w-12 xl:w-[70px]"
               src="/assets/icons/outsourcing 1.png"
               alt="image"
             />
@@ -143,7 +173,7 @@
             class="lg:flex hidden justify-center items-center lg:items-start gap-x-4"
           >
             <img
-              class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-20"
+              class="mt-[77px] bg-[#fff856] rounded-lg p-1 lg:w-12 xl:w-[70px]"
               src="/assets/icons/shield 1.png"
               alt="image"
             />
@@ -169,27 +199,28 @@
           <div class="w-12 h-2 shrink-0 bg-[#e1e1e1]"></div>
         </div>
       </section>
-      <div class="mt-16 lg:relative lg:mb-32 px-5 xl:px-32">
+      <section class="mt-16 lg:mb-28 lg:relative px-5 lg:px-24 xl:px-28 2xl:px-32 3xl:px-40">
         <img
-          class="w-full lg:w-[774px] lg:h-[910px]"
-          src="/assets/images/Rectangle 201.png"
+          class="w-full lg:w-[774px] lg:h-[880px] xl:w-[835px] xl:h-[880px] 3xl:w-[900px] 3xl:h-[900px]"
+          src="/assets/images/Rectangle 34.png"
           alt="image"
         />
-        <section
-          class="poppins text-[#16205f] mx-5 flex flex-col justify-center items-center pt-9 pb-14 relative bg-white top-[-200px] lg:rounded-tl-[100px] lg:w-[730px] lg:absolute lg:right-20 lg:top-32 2xl:right-96"
+        <div
+          class=" text-[#16205f] flex flex-col justify-center items-start pt-9 pb-14 relative bg-white top-[-200px] lg:rounded-tl-[100px] lg:absolute lg:right-24 xl:right-28 lg:top-[50px] 2xl:right-32 3xl:right-48 mx-5 lg:mx-0"
         >
+        
           <h1
-            class="text-4xl font-semibold leading-[46px] px-5 lg:px-10"
-          >
-            Connect With Your Next Great Hire Today!
-          </h1>
-          <form action="" class="px-8">
+          class="text-4xl font-semibold leading-[46px] lg:w-[514px] px-5 lg:px-20 lg:pr-0"
+        >
+          Connect With Your Next Great Hire Today!
+        </h1>
+          <form action="" class=" px-5 lg:px-20 lg:pr-0 ">
             <div class="lg:flex lg:items-center lg:justify-between lg:gap-x-4">
               <div class="flex items-start justify-start flex-col mt-7">
                 <label class="font-semibold" for="company">Company</label>
                 <input
                   placeholder="placeholder"
-                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+                  class="border border-[#c5e0ff] bg-white rounded-lg py-[12px] pl-2 w-[250px] placeholder:text-[rgba(0, 0, 0, 0.50)] md:w-full lg:w-[250px]"
                   type="text"
                   id="company"
                 />
@@ -198,7 +229,7 @@
                 <label class="font-semibold" for="your-name">Your Name</label>
                 <input
                   placeholder="placeholder"
-                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+                  class="border border-[#c5e0ff] bg-white rounded-lg py-[12px] pl-2 w-[250px] placeholder:text-[rgba(0, 0, 0, 0.50)] md:w-full lg:w-[250px]"
                   type="text"
                   id="your-name"
                 />
@@ -210,7 +241,7 @@
                   >Phone Number</label
                 >
                 <input
-                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+                  class="border border-[#c5e0ff] bg-white rounded-lg py-[12px] pl-2 w-[250px] placeholder:text-[rgba(0, 0, 0, 0.50)] md:w-full lg:w-[250px]"
                   type="number"
                   id="phone-number"
                 />
@@ -219,7 +250,7 @@
                 <label class="font-semibold" for="email">Email</label>
                 <input
                   placeholder="placeholder"
-                  class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-[310px]"
+                  class="border border-[#c5e0ff] bg-white rounded-lg py-[12px] pl-2 w-[250px] placeholder:text-[rgba(0, 0, 0, 0.50)] md:w-full lg:w-[250px]"
                   type="text"
                   id="email"
                 />
@@ -234,7 +265,7 @@
               >
               <textarea
                 placeholder="placeholder"
-                class="border border-[#c5e0ff] bg-white rounded-lg py-[10px] pl-2 w-[310px] md:w-full placeholder:text-[rgba(0, 0, 0, 0.50)]"
+                class="border border-[#c5e0ff] bg-white rounded-lg py-[12px] pl-2 w-[250px] placeholder:text-[rgba(0, 0, 0, 0.50)] lg:w-full md:w-full"
                 id="project-detail"
                 cols="30"
                 rows="3"
@@ -250,27 +281,28 @@
             <div class="mt-11">
               <button
                 type="button"
-                class="custom-bg-gradient bg-gradient-to-r from-[#F90] to-[#F2CB00] flex justify-center items-center gap-x-4 h-[54px] rounded-lg w-[310px] text-white font-semibold shadow-lg"
+                class="custom-bg-gradient bg-gradient-to-r from-[#F90] to-[#F2CB00] flex justify-center items-center gap-x-4 h-[54px] rounded-lg w-[250px] text-white font-semibold drop-shadow-lg shadow-md"
               >
                 <p>Get consultaion</p>
                 <img src="/assets/icons/arrow_forward.svg" alt="icon" />
               </button>
             </div>
           </form>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <div class="border border-[#c4c4c4] mb-[100px] mx-5 lg:mx-0"></div>
-    <footer class="poppins text-[#16205f]">
+    <footer class=" text-[#16205f] text-base">
       <div
-        class="lg:flex items-baseline justify-between mx-5 md:mx-10 xl:mx-32"
+        class="lg:flex items-baseline justify-start lg:gap-8 xl:gap-x-32 3xl:gap-x-48 px-5 lg:px-28 2xl:px-32 3xl:px-40"
       >
+        <div class="lg:flex lg:gap-x-8 2xl:gap-x-10">
         <div class="lg:flex lg:flex-col">
           <div>
             <img src="/assets/images/logo 1.png" alt="logo" />
           </div>
           <div>
-            <p class="text-lg w-[288px] my-8">
+            <p class="text-base w-[288px] my-8">
               Expertly trained, battle-tested, elite software developers on
               demand
             </p>
@@ -282,7 +314,7 @@
               <img src="/assets/icons/Email.svg" alt="phone-icon" />
               <p>hello@courtney.lk</p>
             </div>
-            <div class="flex items-center gap-x-4 mt-6">
+            <div class="flex items-start gap-x-4 mt-6">
               <img src="/assets/icons/Location on.svg" alt="phone-icon" />
               <p class="w-[272px]">
                 Courtney Lanka (Private) Limited Level 35 World Trade Center
@@ -292,10 +324,10 @@
           </div>
         </div>
         <div>
-          <h3 class="text-[22px] font-semibold pb-7 mt-9 capitalize">
+          <h3 class="text-xl font-semibold pb-7 mt-9 capitalize">
             Company
           </h3>
-          <ul class="text-lg space-y-[26px] capitalize">
+          <ul class="space-y-[26px] capitalize">
             <li>about us</li>
             <li>success stories</li>
             <li>privacy policy</li>
@@ -303,11 +335,13 @@
             <li>contact us</li>
           </ul>
         </div>
+      </div>
+      <div class="lg:flex lg:gap-x-12 xl:gap-x-36">
         <div>
-          <h3 class="text-[22px] font-semibold pb-7 mt-16 capitalize">
+          <h3 class="text-xl font-semibold pb-7 mt-16 capitalize">
             Services
           </h3>
-          <ul class="text-lg space-y-[26px] capitalize">
+          <ul class="space-y-[26px] capitalize">
             <li>hire permanent staff</li>
             <li>staff augmentation</li>
             <li>software outsourcing</li>
@@ -315,8 +349,8 @@
           </ul>
         </div>
         <div>
-          <h3 class="text-[22px] font-semibold pb-7 mt-16">How to start</h3>
-          <ul class="text-lg space-y-[26px] capitalize">
+          <h3 class="text-xl font-semibold pb-7 mt-16">How to start</h3>
+          <ul class="space-y-[26px] capitalize">
             <li>you asked</li>
             <li>we proceed</li>
             <li>negotiate</li>
@@ -324,23 +358,24 @@
           </ul>
         </div>
       </div>
-      <div class="mb-12 mx-5 md:mx-10 xl:mx-32">
-        <p class="text-lg font-semibold mt-[90px] pb-[22px]">Follow us</p>
+      </div>
+      <div class="mb-12 px-5 lg:px-24 xl:px-28 2xl:px-32 3xl:px-40">
+        <p class="text-base font-semibold mt-8 pb-[22px]">Follow us</p>
         <div
-          class="flex items-center justify-between lg:justify-start lg:gap-x-8"
+          class="flex items-center justify-between md:justify-start md:gap-x-8"
         >
-          <img src="/assets/icons/LinkedIn.svg" alt="linkedin-icon" />
-          <img src="/assets/icons/Facebook.svg" alt="facebook-icon" />
-          <img src="/assets/icons/Instagram.svg" alt="instagram-icon" />
-          <img src="/assets/icons/Twitter.svg" alt="twitter-icon" />
-          <img src="/assets/icons/YouTube.svg" alt="youtube-icon" />
+          <img class="w-8" src="/assets/icons/LinkedIn.svg" alt="linkedin-icon" />
+          <img class="w-8" src="/assets/icons/Facebook.svg" alt="facebook-icon" />
+          <img class="w-8" src="/assets/icons/Instagram.svg" alt="instagram-icon" />
+          <img class="w-8" src="/assets/icons/Twitter.svg" alt="twitter-icon" />
+          <img class="w-8" src="/assets/icons/YouTube.svg" alt="youtube-icon" />
         </div>
       </div>
       <div class="border border-[#c4c4c4] mb-4"></div>
-      <div class="mb-[81px] mx-5 md:mx-10 xl:mx-32">
+      <div class="mb-12 px-5 lg:px-24 xl:px-28 2xl:px-32 3xl:px-40">
         <p class="text-lg">&copy; 2022 courtney</p>
       </div>
     </footer>
-    <script src="./index.ts"></script>
+    <script src="/dist/index.js"></script>
   </body>
 </html>

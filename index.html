@@ -15,24 +15,57 @@
             <img class="w-32 xl:w-32 2xl:w-40" src="/assets/images/logo 1.png" alt="courtney-lanka-logo" />
           </a>
         </div>
+        <ul class="menu fixed translate-y-[-100%] transition-transform duration-[0.2s] top-0 left-0 right-0 bottom-0 z-50 bg-white text-[#16205f] px-9 pt-8 text-3xl flex flex-col gap-y-9">
+          <li class="flex justify-end pb-12">
+            <img class="close-icon hidden" src="/assets/icons/Close.svg" alt="menu-icon" />
+          </li>
+          <li><a class="menu-item" href="/how-to-start.html">How to start</a></li>
+          <li class="flex items-center justify-between menu-item">
+            <a href="/src/pages/services.html">Services</a>
+            <img src="/assets/icons/keyboard_arrow_down.svg" alt="icon" />
+          </li>
+          <li class="flex items-center justify-between menu-item">
+            <a href="/src/pages/technologies.html">Technologies</a>
+            <img src="/assets/icons/keyboard_arrow_down.svg" alt="icon" />
+          </li>
+          <li><a class="menu-item" href="/src/pages/careers.html">Careers</a></li>
+          <li>
+            <div class="w-full flex justify-start lg:justify-start mt-9 menu-item">
+              <button
+                class="custom-bg-gradient w-full lg:w-[201px] md:w-1/2 h-14 flex justify-center items-center gap-x-2 rounded-lg shadow-md"
+              >
+                <p class="text-white font-semibold text-base">
+                  Build a team
+                </p>
+                <img
+                  class="fill-white"
+                  src="./assets/icons/arrow_forward.svg"
+                  alt="arrow-forward"
+                />
+              </button>
+            </div>
+          </li>
+        </ul>
+        <button class="hamburger">
+          <img class="menu-icon lg:hidden" src="/assets/icons/Menu.svg" alt="menu-icon" />
+          
+        </button>
         <div class="hidden lg:flex">
           <ul
             class="flex items-center justify-center lg:gap-x-6 xl:gap-x-8 2xl:gap-x-12"
           >
             <li><a href="/how-to-start.html">How to start</a></li>
             <li class="flex items-center">
-              <a href="">Services</a>
+              <a href="/src/pages/services.html">Services</a>
               <img src="/assets/icons/keyboard_arrow_down.svg" alt="icon" />
             </li>
             <li class="flex items-center">
-              <a href="/technologies.html">Technologies</a>
+              <a href="/src/pages/technologies.html">Technologies</a>
               <img src="/assets/icons/keyboard_arrow_down.svg" alt="icon" />
             </li>
-            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/src/pages/careers.html">Careers</a></li>
           </ul>
         </div>
-      
-      <img class="lg:hidden" src="/assets/icons/Menu.svg" alt="menu-icon" />
       <div class="hidden lg:flex">
         <div class="flex items-center justify-end lg:gap-x-4 xl:gap-x-6">
           <button
@@ -41,7 +74,7 @@
             <p>build a team</p>
             <img src="/assets/icons/arrow_forward_black.svg" alt="icon" />
           </button>
-          <a href="/contact.html">Contact us</a>
+          <a href="/src/pages/contact.html">Contact us</a>
         </div>
       </div>
     </nav>
@@ -105,7 +138,7 @@
             <div class="lg:flex lg:justify-start lg:items-baseline xl:gap-x-12 2xl:gap-x-16 text-[#16205f]">
               <div class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-x-4">
                 <img
-                  class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-12 xl:w-20"
+                  class="mt-[77px] bg-[#fff856] rounded-lg lg:w-12 xl:w-[70px]"
                   src="/assets/images/cube 1.png"
                   alt="image"
                 />
@@ -125,7 +158,7 @@
                 class="lg:flex hidden justify-center items-center lg:items-start gap-x-4"
               >
                 <img
-                  class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-12 xl:w-20"
+                  class="mt-[77px] bg-[#fff856] rounded-lg p-1 lg:w-12 xl:w-[70px]"
                   src="/assets/images/software-application 1.png"
                   alt="image"
                 />
@@ -146,7 +179,7 @@
                 class="lg:flex hidden justify-center items-center lg:items-start gap-x-4"
               >
                 <img
-                  class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-12 xl:w-20"
+                  class="mt-[77px] bg-[#fff856] rounded-lg p-1 lg:w-12 xl:w-[70px]"
                   src="/assets/images/technical-support 1.png"
                   alt="image"
                 />
@@ -235,7 +268,7 @@
         <div class="lg:flex items-baseline gap-x-7 3xl:gap-x-14">
           <div class="flex justify-center items-center flex-col lg:items-start">
             <img
-              class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-20"
+              class="mt-[77px] bg-[#fff856] rounded-lg p-1 xl:w-[72px]"
               src="./assets/icons/link 1.png"
               alt="image"
             />
@@ -246,13 +279,12 @@
               dedicated teams
             </p>
             <p class="text-lg pt-2 2xl:w-max">Find your next team member</p>
-            
           </div>
           <div
             class="lg:flex justify-center items-center flex-col lg:items-start hidden"
           >
             <img
-              class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-20"
+              class="mt-[77px] bg-[#fff856] rounded-lg p-1 xl:w-[72px]"
               src="./assets/icons/management 1.png"
               alt="image"
             />
@@ -265,7 +297,7 @@
             class="lg:flex justify-center items-center flex-col lg:items-start hidden"
           >
             <img
-              class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-20"
+              class="mt-[77px] bg-[#fff856] rounded-lg p-1 xl:w-[72px]"
               src="./assets/icons/outsourcing 1.png"
               alt="image"
             />
@@ -280,7 +312,7 @@
             class="lg:flex justify-center items-center flex-col lg:items-start hidden"
           >
             <img
-              class="mt-[77px] bg-[#fff856] rounded-lg p-2 lg:w-20"
+              class="mt-[77px] bg-[#fff856] rounded-lg p-1 xl:w-[72px]"
               src="./assets/icons/shield 1.png"
               alt="image"
             />
@@ -485,10 +517,10 @@
           <div class="w-12 h-2 shrink-0 bg-[#e1e1e1]"></div>
         </div>
       </section>
-      <section class="text-[#16205f] text-center">
-        <div class="lg:pb-[71px] lg:px-28 lg:pt-28">
-        <h1 class="font-semibold text-[22px]">Specialized</h1>
-        <h2 class="mt-4 font-semibold text-4xl">Technologies</h2>
+      <section class="text-[#16205f] text-center px-5 lg:px-24 xl:px-28 2xl:px-32 3xl:px-40">
+        <div class="lg:py-32 lg:pt-28">
+        <h1 class="font-semibold text-[22px] pt-[90px] lg:pt-0">Specialized</h1>
+        <h2 class="mt-8 font-semibold text-4xl">Technologies</h2>
         <div
           class="flex items-center justify-evenly flex-nowrap gap-x-14 mt-12"
         >
@@ -517,10 +549,10 @@
           <img src="./assets/icons/Vector (1).svg" alt="icon" />
         </div>
       </div>
-      <div class="bg-[#f8f8f8] lg:py-[71px] lg:px-28">
+      <div class="lg:bg-[#f8f8f8] lg:py-[71px] pt-[150px]">
         <h1 class="font-semibold text-[22px]">Clients</h1>
         <div class="flex items-center justify-center">
-          <h2 class="mt-4 font-semibold text-4xl lg:w-full">
+          <h2 class="mt-8 font-semibold text-4xl lg:w-full">
             Amazing clients who trust us
           </h2>
         </div>
@@ -564,11 +596,11 @@
         >
         
           <h1
-          class="text-4xl font-semibold leading-[46px] lg:w-[514px] px-20 lg:pr-0"
+          class="text-4xl font-semibold leading-[46px] lg:w-[514px] px-5 lg:px-20 lg:pr-0"
         >
           Connect With Your Next Great Hire Today!
         </h1>
-          <form action="" class="px-20 lg:pr-0 ">
+          <form action="" class=" px-5 lg:px-20 lg:pr-0 ">
             <div class="lg:flex lg:items-center lg:justify-between lg:gap-x-4">
               <div class="flex items-start justify-start flex-col mt-7">
                 <label class="font-semibold" for="company">Company</label>
@@ -668,7 +700,7 @@
               <img src="./assets/icons/Email.svg" alt="phone-icon" />
               <p>hello@courtney.lk</p>
             </div>
-            <div class="flex items-center gap-x-4 mt-6">
+            <div class="flex items-start gap-x-4 mt-6">
               <img src="./assets/icons/Location on.svg" alt="phone-icon" />
               <p class="w-[272px]">
                 Courtney Lanka (Private) Limited Level 35 World Trade Center
@@ -730,6 +762,6 @@
         <p class="text-lg">&copy; 2022 courtney</p>
       </div>
     </footer>
-    <script src="./index.ts"></script>
+    <script src="/dist/index.js"></script>
   </body>
 </html>
