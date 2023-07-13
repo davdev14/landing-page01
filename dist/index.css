@@ -1786,6 +1786,10 @@ body,html {
     width: 100%;
   }
 
+  .lg\:w-\[72px\] {
+    width: 72px;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1997,6 +2001,10 @@ body,html {
 
   .xl\:h-\[880px\] {
     height: 880px;
+  }
+
+  .xl\:h-\[785px\] {
+    height: 785px;
   }
 
   .xl\:w-32 {
