@@ -7,9 +7,16 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        "ls": "600px",
-        "xs": "1440",
-        "3xl": "1655px"
+        "sm": "640px",
+        "md": "768px",
+        "lg": "1024px",
+        "xl": "1280px",
+        
+      },
+      screens: {
+        "ls": "320px",
+        "2xl": "1440px",
+        "3xl": "1655px",
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
