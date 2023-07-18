@@ -3,7 +3,6 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* lg:top-16 lg:left-[95px] xl:top-12 xl:left-[115px] rounded-tr-[100px] 2xl:left-[126px] 3xl:left-[160px] lg:pr-6 xl:pr-4 px-5 lg:px-0 */
 
 body,html {
   width: 100vw;
@@ -30,4 +29,10 @@ body,html {
 }
 .showMenu {
   transform: translateY(0);
+}
+.contact-bg{
+  background-image: url(/assets/images/Rectangle\ 34.png);
+}
+.contact-map{
+  background-image: url(/assets/images/Rectangle\ 35.png);
 }

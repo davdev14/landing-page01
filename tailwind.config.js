@@ -5,15 +5,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx,html}"
   ],
   theme: {
+    screens: {
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px",
+    },
     extend: {
       screens: {
-        "sm": "640px",
-        "md": "768px",
-        "lg": "1024px",
-        "xl": "1280px",
-      },
-      screens: {
         "ls": "320px",
+        "sm": "375px",
         "2xl": "1440px",
         "3xl": "1655px",
       },
