@@ -542,6 +542,10 @@ video {
   left: 0px;
 }
 
+.left-\[100px\] {
+  left: 100px;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -550,20 +554,16 @@ video {
   top: 0px;
 }
 
+.top-\[180px\] {
+  top: 180px;
+}
+
 .top-\[400px\] {
   top: 400px;
 }
 
 .top-\[9\%\] {
   top: 9%;
-}
-
-.left-\[100px\] {
-  left: 100px;
-}
-
-.top-\[180px\] {
-  top: 180px;
 }
 
 .z-50 {
@@ -577,11 +577,6 @@ video {
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
-}
-
-.my-\[120px\] {
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 .my-\[95px\] {
@@ -741,24 +736,20 @@ video {
   margin-top: 89px;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-\[300px\] {
+  margin-top: 300px;
 }
 
-.mt-\[615px\] {
-  margin-top: 615px;
-}
-
-.mt-\[700px\] {
-  margin-top: 700px;
-}
-
-.mt-\[800px\] {
-  margin-top: 800px;
+.mt-\[100px\] {
+  margin-top: 100px;
 }
 
 .mt-\[900px\] {
   margin-top: 900px;
+}
+
+.mt-\[950px\] {
+  margin-top: 950px;
 }
 
 .box-border {
@@ -823,6 +814,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-12 {
@@ -901,10 +896,6 @@ video {
   width: 100%;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -932,10 +923,6 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1020,9 +1007,9 @@ video {
        column-gap: 2rem;
 }
 
-.gap-x-\[12px\] {
-  -moz-column-gap: 12px;
-       column-gap: 12px;
+.gap-x-\[10px\] {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 
 .gap-y-4 {
@@ -1041,22 +1028,12 @@ video {
   row-gap: 2.25rem;
 }
 
-.gap-y-\[13px\] {
-  row-gap: 13px;
-}
-
 .gap-y-\[100px\] {
   row-gap: 100px;
 }
 
-.gap-x-\[1px\] {
-  -moz-column-gap: 1px;
-       column-gap: 1px;
-}
-
-.gap-x-\[10px\] {
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+.gap-y-\[13px\] {
+  row-gap: 13px;
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
@@ -1431,10 +1408,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-\[15px\] {
-  font-size: 15px;
-}
-
 .text-\[22px\] {
   font-size: 22px;
 }
@@ -1685,16 +1658,20 @@ body,html {
 
 @media (min-width: 320px) {
   @media not all and (min-width: 1024px) {
-    .ls\:max-lg\:mt-8 {
-      margin-top: 2rem;
-    }
-
     .ls\:max-lg\:mt-6 {
       margin-top: 1.5rem;
     }
 
+    .ls\:max-lg\:mt-8 {
+      margin-top: 2rem;
+    }
+
     .ls\:max-lg\:mt-\[100px\] {
       margin-top: 100px;
+    }
+
+    .ls\:max-lg\:mt-\[200px\] {
+      margin-top: 200px;
     }
 
     .ls\:max-lg\:space-y-16 > :not([hidden]) ~ :not([hidden]) {
@@ -1711,14 +1688,6 @@ body,html {
   @media not all and (min-width: 768px) {
     .ls\:max-md\:mt-\[900px\] {
       margin-top: 900px;
-    }
-
-    .ls\:max-md\:mt-\[500px\] {
-      margin-top: 500px;
-    }
-
-    .ls\:max-md\:mt-\[100px\] {
-      margin-top: 100px;
     }
   }
 
@@ -1742,14 +1711,6 @@ body,html {
 }
 
 @media (min-width: 768px) {
-  .md\:left-\[260px\] {
-    left: 260px;
-  }
-
-  .md\:top-\[297px\] {
-    top: 297px;
-  }
-
   .md\:left-\[250px\] {
     left: 250px;
   }
@@ -1798,12 +1759,12 @@ body,html {
     width: 300px;
   }
 
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:w-\[72px\] {
     width: 72px;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:grid-cols-2 {
@@ -1863,10 +1824,6 @@ body,html {
     .md\:max-lg\:mx-20 {
       margin-left: 5rem;
       margin-right: 5rem;
-    }
-
-    .md\:max-lg\:mt-\[346px\] {
-      margin-top: 346px;
     }
 
     .md\:max-lg\:mt-\[590px\] {
@@ -1938,16 +1895,16 @@ body,html {
     margin-top: 1.5rem;
   }
 
-  .lg\:mt-\[500px\] {
-    margin-top: 500px;
-  }
-
-  .lg\:mt-\[400px\] {
-    margin-top: 400px;
-  }
-
   .lg\:mt-\[300px\] {
     margin-top: 300px;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:mt-\[100px\] {
+    margin-top: 100px;
   }
 
   @media (min-width: 1024px) {
@@ -2219,10 +2176,6 @@ body,html {
     right: 7rem;
   }
 
-  .xl\:top-\[341px\] {
-    top: 341px;
-  }
-
   .xl\:top-\[320px\] {
     top: 320px;
   }
@@ -2327,10 +2280,6 @@ body,html {
 
   .\32xl\:right-32 {
     right: 8rem;
-  }
-
-  .\32xl\:top-\[341px\] {
-    top: 341px;
   }
 
   .\32xl\:top-\[320px\] {
