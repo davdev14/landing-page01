@@ -736,20 +736,24 @@ video {
   margin-top: 89px;
 }
 
-.mt-\[300px\] {
-  margin-top: 300px;
+.mt-\[950px\] {
+  margin-top: 950px;
 }
 
 .mt-\[100px\] {
   margin-top: 100px;
 }
 
-.mt-\[900px\] {
-  margin-top: 900px;
+.mt-\[80px\] {
+  margin-top: 80px;
 }
 
-.mt-\[950px\] {
-  margin-top: 950px;
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
 }
 
 .box-border {
@@ -1386,6 +1390,10 @@ video {
   padding-top: 90px;
 }
 
+.pb-\[77px\] {
+  padding-bottom: 77px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1458,6 +1466,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-\[275\] {
@@ -1668,10 +1681,6 @@ body,html {
 
     .ls\:max-lg\:mt-\[100px\] {
       margin-top: 100px;
-    }
-
-    .ls\:max-lg\:mt-\[200px\] {
-      margin-top: 200px;
     }
 
     .ls\:max-lg\:space-y-16 > :not([hidden]) ~ :not([hidden]) {
@@ -1891,20 +1900,20 @@ body,html {
     margin-bottom: 5rem;
   }
 
-  .lg\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
-  .lg\:mt-\[300px\] {
-    margin-top: 300px;
-  }
-
   .lg\:mt-0 {
     margin-top: 0px;
   }
 
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .lg\:mt-\[100px\] {
     margin-top: 100px;
+  }
+
+  .lg\:mt-\[120px\] {
+    margin-top: 120px;
   }
 
   @media (min-width: 1024px) {
@@ -2111,6 +2120,16 @@ body,html {
     padding-bottom: 71px;
   }
 
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .lg\:pb-\[77px\] {
     padding-bottom: 77px;
   }
@@ -2139,6 +2158,14 @@ body,html {
     padding-top: 0.75rem;
   }
 
+  .lg\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .lg\:text-start {
+    text-align: start;
+  }
+
   .lg\:text-\[64px\] {
     font-size: 64px;
   }
@@ -2164,6 +2191,30 @@ body,html {
 
   .lg\:leading-\[60px\] {
     line-height: 60px;
+  }
+
+  @media not all and (min-width: 1280px) {
+    .lg\:max-xl\:px-20 {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+
+    .lg\:max-xl\:pr-20 {
+      padding-right: 5rem;
+    }
+
+    .lg\:max-xl\:pl-10 {
+      padding-left: 2.5rem;
+    }
+
+    .lg\:max-xl\:text-\[32px\] {
+      font-size: 32px;
+    }
+
+    .lg\:max-xl\:text-xl {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
   }
 }
 
