@@ -688,10 +688,6 @@ video {
   margin-top: 108px;
 }
 
-.mt-\[120px\] {
-  margin-top: 120px;
-}
-
 .mt-\[134px\] {
   margin-top: 134px;
 }
@@ -738,22 +734,6 @@ video {
 
 .mt-\[950px\] {
   margin-top: 950px;
-}
-
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-
-.mt-\[80px\] {
-  margin-top: 80px;
-}
-
-.mt-\[40px\] {
-  margin-top: 40px;
-}
-
-.mt-\[20px\] {
-  margin-top: 20px;
 }
 
 .box-border {
@@ -1318,6 +1298,10 @@ video {
   padding-bottom: 26px;
 }
 
+.pb-\[77px\] {
+  padding-bottom: 77px;
+}
+
 .pb-\[80px\] {
   padding-bottom: 80px;
 }
@@ -1390,10 +1374,6 @@ video {
   padding-top: 90px;
 }
 
-.pb-\[77px\] {
-  padding-bottom: 77px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1404,6 +1384,11 @@ video {
 
 .font-poppins {
   font-family: Poppins, sans-serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -1466,11 +1451,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-\[275\] {
@@ -2030,10 +2010,6 @@ body,html {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -2090,6 +2066,11 @@ body,html {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -2120,16 +2101,6 @@ body,html {
     padding-bottom: 71px;
   }
 
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
   .lg\:pb-\[77px\] {
     padding-bottom: 77px;
   }
@@ -2158,10 +2129,6 @@ body,html {
     padding-top: 0.75rem;
   }
 
-  .lg\:pr-20 {
-    padding-right: 5rem;
-  }
-
   .lg\:text-start {
     text-align: start;
   }
@@ -2179,11 +2146,6 @@ body,html {
     line-height: 1.25rem;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -2194,17 +2156,12 @@ body,html {
   }
 
   @media not all and (min-width: 1280px) {
-    .lg\:max-xl\:px-20 {
-      padding-left: 5rem;
-      padding-right: 5rem;
+    .lg\:max-xl\:pl-10 {
+      padding-left: 2.5rem;
     }
 
     .lg\:max-xl\:pr-20 {
       padding-right: 5rem;
-    }
-
-    .lg\:max-xl\:pl-10 {
-      padding-left: 2.5rem;
     }
 
     .lg\:max-xl\:text-\[32px\] {
@@ -2297,11 +2254,6 @@ body,html {
   .xl\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
-  }
-
-  .xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .xl\:text-\[50px\] {
